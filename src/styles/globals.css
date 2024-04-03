@@ -1,3 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+button, input:where([type='button']), input:where([type='reset']), input:where([type='submit']) {
+    -webkit-appearance: button;
+    background-color: #17e731;
+    background-image: none;
+}
+button, input:where([type='button']), input:where([type='reset']), input:where([type='submit']) {
+    margin-left: 70px;
+}

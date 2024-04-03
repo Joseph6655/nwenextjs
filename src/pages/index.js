@@ -1,8 +1,7 @@
 import Navbar from '../components/Navbar';
+import AdditionalComponent from '../components/AdditionalComponent';
 import React from 'react';
 import Head from 'next/head';
-
-
 
 const Home = () => {
   return (
@@ -11,8 +10,8 @@ const Home = () => {
         <title>Home page</title>
       </Head>
       <Navbar />
-     
-      </div>
+      <AdditionalComponent /> 
+    </div>
   );
 };
 
