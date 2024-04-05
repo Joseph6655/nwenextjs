@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="flex">
             <div className=" py-5  px-10 w-full lg:w-3/4 flex items-center">
               <div className="flex items-center">
-                <span className="text-black font-bold text-3xl " style={{ marginLeft :'55px' }}>Job</span>
+                <span className="text-black font-bold text-3xl " style={{ marginLeft :'55px' }}>b</span>
                 <span className="text-green-400 font-bold text-3xl">NQW</span>
               </div>
               <ul className="lg:flex hidden ml-16">
