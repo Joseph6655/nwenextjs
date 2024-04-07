@@ -10,3 +10,6 @@ button, input:where([type='button']), input:where([type='reset']), input:where([
 button, input:where([type='button']), input:where([type='reset']), input:where([type='submit']) {
     margin-left: 70px;
 }
+.ml-10 {
+    margin-left: 4.5rem;
+}
