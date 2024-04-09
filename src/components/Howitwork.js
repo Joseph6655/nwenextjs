@@ -12,32 +12,32 @@ const Howitwork = () => {
               <button className="mr-16 bg-gray-50 font-bold border border-green-400 text-green-400 py-2 px-4 rounded-md">Learn More</button>
             </div>
             <div className="flex justify-between mt-4">
-              <div className="w-1/4 ml-8">
-                <div className="bg-white rounded-lg p-2">
-                  <img src="image.jpg" alt="Image" className="w-full h-auto mb-2" />
-                  <h5 className="font-bold">Title</h5>
-                  <p className="text-sm">Small text</p>
+              <div className="w-1/4 ml-5">
+                <div className="bg-white rounded-lg p-4">
+                  <img src="reg.png" alt="Image" className="w-12 h-12 mb-3" />
+                  <h5 className="font-bold text-xl mb-3 ">Register</h5>
+                  <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex</p>
                 </div>
               </div>
-              <div className="w-1/4">
-                <div className="bg-white rounded-lg p-2 sm:p-4">
-                  <img src="image.jpg" alt="Image" className="w-full h-auto mb-2" />
-                  <h5 className="font-bold">Title</h5>
-                  <p className="text-sm">Small text</p>
+              <div className="w-1/4 ml-5">
+                <div className="bg-white rounded-lg p-4">
+                  <img src="cre.png" alt="Image" className="w-12 h-12 mb-3" />
+                  <h5 className="font-bold text-xl  mb-3 ">Create a Resume</h5>
+                  <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex</p>
                 </div>
               </div>
-              <div className="w-1/4">
-                <div className="bg-white rounded-lg p-2 sm:p-4">
-                  <img src="image.jpg" alt="Image" className="w-full h-auto mb-2" />
-                  <h5 className="font-bold">Title</h5>
-                  <p className="text-sm">Small text</p>
+              <div className="w-1/4 ml-5">
+                <div className="bg-white rounded-lg p-4">
+                  <img src="find.png" alt="Image" className="w-12 h-12 mb-3 " />
+                  <h5 className="font-bold text-xl  mb-3 ">Find Job</h5>
+                  <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex</p>
                 </div>
               </div>
-              <div className="w-1/4">
-                <div className="bg-white rounded-lg p-2 sm:p-4">
-                  <img src="image.jpg" alt="Image" className="w-full h-auto mb-2" />
-                  <h5 className="font-bold">Title</h5>
-                  <p className="text-sm">Small text</p>
+              <div className="w-1/4 ml-5">
+                <div className="bg-white rounded-lg p-4">
+                  <img src="apply.png" alt="Image" className="w-12 h-12 mb-3" />
+                  <h5 className="font-bold text-xl  mb-3 ">Apply Job</h5>
+                  <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex</p>
                 </div>
               </div>
             </div>
