@@ -8,7 +8,7 @@ const AdditionalComponent = () => {
           
           <div className="bg-gray-200 w-full lg:w-3/4 mr-0">
             <div className="p-5">
-              <div className="ml-10 sm:ml-14 mt-16 mr-3"> {/* Apply ml-14 on small screens */}
+              <div className="ml-10 sm:ml-14 mt-16 mr-3"> 
                 <h3 className="font-bold text-4xl ml-5 text-center lg:text-left sm:px-8 lg:px-0">Search, Find, & Apply</h3>
                 <p className="mt-4 ml-5 text-center lg:text-left sm:text-sm md:text-base lg:text-lg xl:text-xl lg:pr-24 sm:px-8 lg:px-0">lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex, Quisque ut arcu at lectus tristique auctor sit amet at turpis.</p>
               </div>
@@ -24,7 +24,7 @@ const AdditionalComponent = () => {
                   </button>
                   <button className="bg-green-400 text-white p-2 m-2 pl-8 pr-8 ml-2 sm:ml-4" style={{ borderRadius: '10px' }}>Search</button>
                 </div>
-                <div className="absolute bg-white inset-0 opacity-0 hover:opacity-100 z-10" style={{ borderRadius: '15px' }}></div>
+                <div className="absolute bg-white inset-0 opacity-0 " style={{ borderRadius: '15px' }}></div>
               </div>
             </div>
           </div>

@@ -13,3 +13,6 @@ button, input:where([type='button']), input:where([type='reset']), input:where([
 .ml-10 {
     margin-left: 4.5rem;
 }
+.p-10 {
+    padding: 8rem;
+}
