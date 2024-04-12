@@ -15,30 +15,34 @@ const Popular = () => {
               <h3 className="font-bold text-xl mb-2 w-1/2">UI/UX Designer</h3>
               <p className="text-sm text-gray-600 mt-4">Dimension Studio</p>
               <p className="text-sm text-gray-600 mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex, Quisque ut arcu at lectus tristique auctor sit amet at turpis.</p>
-              <div className='flex item-center'>
-              <button className="flex bg-gray-200 text-black p-2 m-2  sm:pr-16 mr-2 sm:mr-4" style={{ borderRadius: '10px' }}>
-                    <img src="/locationicon.jpg" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
-                    San Fransisco,CA
-                  </button>
-                  <button className="flex bg-gray-200 text-black p-2 m-2 pr-0 sm:pr-16 mr-2 sm:mr-4" style={{ borderRadius: '10px' }}>
-                    <img src="/bag.png" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
-                    Full Time
-                  </button>
-                  </div>
+              <div className="flex ml-0 ">
+                <button className="flex items-center bg-gray-200 text-black p-2 m-2 ml-0 rounded-md">
+                  <img src="/locationicon.jpg" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
+                  <span className="truncate">San Fransisco,CA</span>
+                </button>
+                <button className="flex items-center bg-gray-200 text-black p-2 m-2 rounded-md">
+                  <img src="/bag.png" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
+                  <span className="truncate">Full Time</span>
+                </button>
+              </div>
+              <a href="#" className="block mt-4 text-green-400 font-bold">Apply Now</a>
             </div>
             <div className="bg-white rounded-lg p-4">
               <img src="Rtwo.png" alt="Item 2" className="w-12 h-auto mb-4" />
               <h3 className="font-bold text-xl mb-2 ">Full Stack Developer</h3>
               <p className="text-sm text-gray-600 mt-4">Alpander</p>
               <p className="text-sm text-gray-600 mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex, Quisque ut arcu at lectus tristique auctor sit amet at turpis.</p>
-              <button className="flex bg-gray-200 text-black p-2 m-2 pr-0 sm:pr-16 mr-2 sm:mr-4" style={{ borderRadius: '10px' }}>
-                    <img src="/locationicon.jpg" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
-                    San Fransisco,CA
-                  </button>
-                  <button className="flex bg-gray-200 text-black p-2 m-2 pr-0 sm:pr-16 mr-2 sm:mr-4" style={{ borderRadius: '10px' }}>
-                    <img src="/bag.png" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
-                    Full Time
-                  </button>
+              <div className="flex ">
+                <button className="flex items-center bg-gray-200 text-black p-2 m-2 ml-0 rounded-md">
+                  <img src="/locationicon.jpg" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
+                  <span className="truncate">San Fransisco,CA</span>
+                </button>
+                <button className="flex items-center bg-gray-200 text-black p-2 m-2 rounded-md">
+                  <img src="/bag.png" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
+                  <span className="truncate">Full Time</span>
+                </button>
+              </div>
+              <a href="#" className="block mt-4 text-green-400 font-bold">Apply Now</a>
             </div>
 
             <div className="bg-white rounded-lg p-4">
@@ -46,14 +50,17 @@ const Popular = () => {
               <h3 className="font-bold text-xl mb-2 w-1/2">Product Designer</h3>
               <p className="text-sm text-gray-600 mt-4">XReact Tech</p>
               <p className="text-sm text-gray-600 mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex, Quisque ut arcu at lectus tristique auctor sit amet at turpis.</p>
-              <button className="flex bg-gray-200 text-black p-2 m-2  sm:pr-16 mr-2 sm:mr-4" style={{ borderRadius: '10px' }}>
-                    <img src="/locationicon.jpg" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
-                    San Fransisco,CA
-                  </button>
-                  <button className="flex bg-gray-200 text-black p-2 m-2 pr-0 sm:pr-16 mr-2 sm:mr-4" style={{ borderRadius: '10px' }}>
-                    <img src="/bag.png" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
-                    Full Time
-                  </button>
+              <div className="flex ml-0 ">
+                <button className="flex items-center bg-gray-200 text-black p-2 m-2  ml-0 rounded-md">
+                  <img src="/locationicon.jpg" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
+                  <span className="truncate">San Fransisco,CA</span>
+                </button>
+                <button className="flex items-center bg-gray-200 text-black p-2 m-2 rounded-md">
+                  <img src="/bag.png" alt="Location Icon" className="mr-2 mt-1 h-4 w-4" />
+                  <span className="truncate">Full Time</span>
+                </button>
+              </div>
+              <a href="#" className="block mt-4 text-green-400 font-bold">Apply Now</a>
 
             </div>
           
