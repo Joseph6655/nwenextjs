@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className="py-5 px-10 w-full lg:w-3/4 flex items-center">
               <div className="flex items-center">
                 <span className="text-black font-bold text-3xl " style={{ marginLeft :'55px' }}>Job</span>
-                <span className="text-green-400 font-bold text-3xl">NQW</span>
+                <span className="text-[#00cc99] font-bold text-3xl">NQW</span>
               </div>
               <ul className="lg:flex hidden ml-16">
                 <li className="navItem ml-2">
@@ -59,7 +59,7 @@ const Navbar = () => {
               </button>
             </div>
             {/* Right section with green background */}
-            <div className="hidden lg:block bg-green-300 py-5 px-10 w-full lg:w-1/2 ml-2 flex items-center justify-end">
+            <div className="hidden lg:block bg-[#00cc99] py-5 px-10 w-full lg:w-1/2 ml-2 flex items-center justify-end">
               <div className="flex items-center justify-end">
                 <div className="mr-10 text-white">Sign In</div>
                 <button className="flex bg-white text-black p-2 font-bold mr-20" style={{ borderRadius: '10px' }}>
