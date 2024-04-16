@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Recently = ({ title, subtitle, jobs }) => {
   return (
     <div className="bg-gray-100 py-8">
