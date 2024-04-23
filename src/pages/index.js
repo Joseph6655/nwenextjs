@@ -6,10 +6,18 @@ import Howitwork from '@/components/Howitwork';
 import HelpComponent from '@/components/HelpComponent';
 import Popular from '@/components/Popular';
 import Recently from '@/components/Recently';
-import Feedback from '@/components/feedback';
+import Feedback from '@/components/Feedback';
 
 const Home = () => {
   const recentlyAddedJobs = [
+    {
+      title: "UI/UX Designer",
+      image: "Rone.png",
+      company: "Dimension Studio",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex, Quisque ut arcu at lectus tristique auctor sit amet at turpis.",
+      location: "San Fransisco, CA",
+      type: "Full Time"
+    },
     {
       title: "UI/UX Designer",
       image: "Rone.png",
@@ -93,14 +101,14 @@ const Home = () => {
       <Recently 
         title="Recently Added Jobs"
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex, Quisque ut arcu at lectus tristique auctor sit amet at turpis."
-        jobs={recentlyAddedJobs}
-        
+        jobs={recentlyAddedJobs}  
       />
       <Feedback
       title="People's Feedback about Job Now!"
       text1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex."
       text2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed quis lacus non orci euismod vestibulum vitae ut ex, Quisque ut arcu at lectus tristique auctor sit amet at turpis."
-      
+      secondaryTitle="browm gracia"
+      secondaryTexts="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       />
     </div>
   );
